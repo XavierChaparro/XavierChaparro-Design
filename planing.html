@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<title>CSS3: Estilos internos y Externos, Selectores CSS</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="En este post...">
+	</head>
+	<body>
+		<h1 align="center"><font size=5>CSS3 "Hojas de estilo en cascada": Estilos internos y Externos, Selectores CSS</h1>
+		<br>
+		<p align="center">Esta p&aacutegina tiene como prop&oacutesito el publicar los contenidos bibliogr&aacuteficos referentes al CSS3 en formato html, puesto que la idea es que los estudiantes del programa desarrolle sitios web para que sean visualizados en los diferentes navegadores.
+		Para esta p&aacutegina se us&oacute el editor Notepad++ y se va a tratar como tema principal el CSS3 y como subtemas Los Selectores, Los pseudo-elementos - pseudo-clases y los Efectos tanto internos como externos</p>
+		<br>
+		<h3>Primer Objetivo Especifico - Selectores</h3>
+		<p>Una de las principales herramientas en CSS son los selectores, por lo tanto se requiere entender cual es su importancia y su impacto en la programaci&ocuten. Los selectores son el abc del CSS y que nos sirven para seleccionar uno o varios elementos que se encuentran en el HTML.
+		Al momento de decir seleccionar, hacemos referencia a precisamente referenciar el elemento y aplicarle un estilo. En el CSS3 se encuentran incluidos todos los selectores del CSS2.1 y agrega unos de forma que hacen mas facil la referenciaci&oacuten de los elementos.
+		<br>Podemos encontrar tres nuevos selectores:
+		<br>
+		<br>1. C&oacutedigo:
+		<br>elemento[atributo^="valor"]
+		<br>Se referencia los elementos con este atributo y que su valor empieza por la cadena de texto indicada en "valor".
+		<br>
+		<br>2. C&oacutedigo:
+		<br>elemento[atributo$="valor"]
+		<br>Se referencia los elementos con este atributo y que su valor termina por la cadena de texto indicada en "valor".
+		<br>
+		<br>3. C&oacutedigo:
+		<br>elemento[atributo*="valor"]
+		<br>Se referencia los elementos con este atributo y que su valor contiene la cadena de texto indicada en "valor".
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled.png"/></div>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled1.png"/></div>
+		</p>
+		<h3>Segundo Obejtivo Especifico - Pseudo-elementos y Pseudo-clases</h3>
+		<p>El primero de estos que revisaremos va a ser el cambio que tuvieron los 4 pseudo-elementos que existen en el cambio de versi&oacuten de CSS2.1 a CSS3. 
+		<br>
+		<br>:first-line. ---> Selecciona la primera l&iacutenea
+		<br>
+		<br>:first-letter. ---> Selecciona la letra
+		<br>
+		<br>:before ---> Posiciona al principio del contenido de un elemento
+		<br>
+		<br>:after ---> Posiciona al final del contenido de un elemento
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled3.png"/></div>
+		<br>CSS3 conserva estos pseudo-elementos aunque cambia su sintaxis, por lo tanto se usar&aacute "::" en vez de ":"
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled4.png"/></div>
+		<br>CSS3 agrega un nuevo pseudo-elemento 
+		<br>::selection ---> Referencia al texto seleccionado por el usuario:
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled5.png"/></div>
+		<br>Cuando se seleccione el texto, esta tendr$aacute un color de fondo azul y no el habitual gris
+		<br>
+		<br>Pasamos al segundo que son las pseudo-clases que es una de las partes que tuvo grandes incorporaciones en donde se busca tener un mayor control sobre los elementos del HTML
+		<br>
+		<br>:nth-child(N) ---> Referencia los elementos en base a sus posiciones en una lista de elementos hijos que a su vez se encuentran dentro de un elemento padre. N es el n&uacute de la posici&oacuten.
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled6.png"/></div>
+		<br>:nth-last-child(N) ---> Selecciona los elementos en referencia al &uacuteltimo elemento de la lista. N es el n&uacute de la posici&oacuten desde el &uacuteltimo elemento, donde el valor 1 equivaldr&iacutea al &uacuteltimo. 
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled7.png"/></div>
+		<br>:nth-of-type(N) ---> Referencia los elementos de un tipo concreto dentro de los hijos de un elemento padre.
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled8.png"/></div>
+		<br>:nth-last-of-type(N) ---> De igual manera que el anterior, referencia el &uacuteltimo elemento de la lista.
+		<br>
+		<br>:last-child ---> Referencia el &uacuteltimo elemento de la lista de los elementos hijos. Ser&iacute el an&aacutelogo al :first-child de CSS2 y es equivalente a :nth-last-child(1)
+		<br>
+		<br>:first-of-type ---> Referencia el primer elemento de un tipo concreto dentro de una lista de hijos.
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled9.png"/></div>
+		<br>:last-of-type ---> Referencia el &uacuteltimo elemento del tipo.
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled2.png"/></div>
+		<br>:only-child ---> Referencia elemento si es el &uacutenico elemento hijo.
+		<br>
+		<br>:only-of-type ---> Referencia elemento si es el &uacutenico elemento hijo de ese tipo.
+		<br>
+		<br>:root ---> Referencia el elemento ra&iacutez del documento.
+		<br>
+		<br>:empty ---> Referencia los elementos que no tienen hijos.
+		<br>
+		<br>:enabled ---> Referencia los elementos de la interfaz que tengan un estado enable.
+		<br>
+		<br>:disabled ---> Referencia los elementos de la interfaz que tengan un estado disable.
+		<br>
+		<br>:checked ---> Selecciona los checkboxes o radio buttons que est&eacuten activados.
+		<br>
+		<br>:not(S) ---> Referencia los elementos que no coincidan con el selector especificado.
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled10.png"/></div>
+		</p>
+		<h3>Tercer Objetivo Especifico - Efectos internos y externos</h3>
+		<p>Los efectos que se pueden manejar dentro del contenido de la p&aacutegina no solo a nivel gr&aacutefico sino que tambien a nivel de texto, cobran gran relevancia en donde lo que se quiere es tener un c&oacutedigo mas depurado y limpio.
+		<br>
+		<br>@font-face
+		<br>Aunque esta nace en la versi&oacuten 2 de CSS su implementación es la siguiente:
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled11.png"/></div>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled12.png"/></div>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled13.png"/></div>
+		<br>Si miramos que el nombre usado es font-family que funiona como el alias de la tipograf&iacutea, por lo tanto su valor no es considerado como relevante, siempre y cuando nos refiramos a esta de la misma manera.
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled14.png"/></div>
+		<br>Aunque se puede correr el riesgo de mala interpretaci&oacuten por parte de un navegador alguna de las fuentes.
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled15.png"/></div>
+		<br>También existen muchas herramientas en l&iacutenea que sirven para crear tipograf&iacutea partiendo de s&iacutembolos. Esto ayuda a disponer de iconos vectoriales y por lo tanto reescalables.
+		<br>
+		<br>Las Columnas en CCS3
+		<br>
+		<br>Para crear una estructura en columnas se cuenta con cuatro nuevos atributos. 
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled16.png"/></div>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled17.png"/></div>
+		<br>Word-wrap
+		<br>
+		<br>Se presentan ocasiones en donde la longitud del texto es superior al de la capa que lo contiene, por lo que puede llegar a arruinar el diseño del html.
+		<br>Este atributo soluciona este inconveniente, dividiendo la palabra y acomodando las partes restantes en filas inferiores.
+		<br>
+		<br><div align="center"><img src="C:\Users\chaparx\Pictures\Sitio Web\Untitled18.png"/></div>
+		<br>
+		<br>
+		</p>
+		
+		
+		
+		
+	
