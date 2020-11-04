@@ -12,9 +12,10 @@
 <body>
 <!-- Menu -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-		<a class="navbar-brand" href="index.html"><img height="60px" src="img/logo.png" alt=""></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
+		<a class="navbar-brand" href="index.html"><img height="50px" src="img/logo.png" alt=""></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+		aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
 		</button>
 	  
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -32,7 +33,7 @@
 			  </li>
 			  <li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Recursos
+				  Recursos
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 				  <a class="dropdown-item" href="recurso_01.html">Recursos 1</a>
@@ -65,7 +66,7 @@
 				Esta pagina Esta pagina esta desarrollada para comprender todos los temas relacionados en cuenta a la creacion 
 				de sitios web a traves de los lenguajes CSS3 y HTML, de igual manera que la materia como tal, su objetivo principal 
 				es apropiar al estudiante de los temas principales que componen el curso y brindar las herramientas necesarias para 
-				crear sitios de contenido no solo visualmente agradable. 
+				crear sitios de contenido y que no sean solo visualmente agradables. 
 			</p>
 
 			<h2 class="mb-4">Objetivos</h2>
@@ -74,8 +75,8 @@
 						<ul>
 							<li>
 								<p>Generales:</p>
-								<p>Poner en practica los conocimientos adquiridos en el estudio de la unidad, 
-									el cual se enfoca en el diseño, el uso de editores de codigo y el control de versiones.</p>
+								<p>Aplicar los conocimientos aprendidos durante en transcurso del curso, sino que se debe desmostrar
+									la apropiación de los leguajes de codigo utlizados para tal fin.</p>
 							</li>
 						</ul>
 					</div>
@@ -106,7 +107,8 @@
 			</div>
 		</div>
 		<div class="col-4 mt-4">
-			<a class="twitter-timeline" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<a class="twitter-timeline" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> 
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</div>
 	</div>
 
@@ -114,8 +116,10 @@
 </div>
 
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>
  
