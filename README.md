@@ -58,7 +58,7 @@
 <!-- Fin menu -->
 
 <!-- Imagen principal -->
-<img  src="background.jpg" class="img-fluid" alt="Responsive image">
+<img  src="background.png" class="img-fluid" alt="Responsive image">
 <div class="container">
 	<div class="row">
 		<div class="col-8 mt-4 mb-4 text-center">
