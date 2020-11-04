@@ -36,8 +36,8 @@
 				  Recursos
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				  <a class="dropdown-item" href="recurso_01.html">Primer Recurso</a>
-				  <a class="dropdown-item" href="recurso_02.html">Segundo Recurso</a>
+				<a class="dropdown-item" href="recurso_01.html">Primer Recurso</a>
+				<a class="dropdown-item" href="recurso_02.html">Segundo Recurso</a>
 			  </li>
 
 			  <li class="nav-item dropdown">
@@ -45,8 +45,8 @@
 					Autoevaluación
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				  <a class="dropdown-item" href="autoevaluacion_01.html">Primera Autoevaluación</a>
-				  <a class="dropdown-item" href="autoevaluacion_02.html">Segunda Autoevaluación</a>
+				<a class="dropdown-item" href="autoevaluacion_01.html">Primera Autoevaluación</a>
+				<a class="dropdown-item" href="autoevaluacion_02.html">Segunda Autoevaluación</a>
 			  </li>
 			<li class="nav-item">
 				<a class="nav-link" href="autor.html">Autor</a>
