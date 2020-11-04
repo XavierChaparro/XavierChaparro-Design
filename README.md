@@ -12,7 +12,7 @@
 <body>
 <!-- Menu -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-		<a class="navbar-brand" href="index.html"><img height="50px" src="logo.png" alt=""></a>
+		<a class="navbar-brand" href="index.html"><img height="70px" src="logo.png" alt=""></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
 		aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
@@ -58,7 +58,7 @@
 <!-- Fin menu -->
 
 <!-- Imagen principal -->
-<img  src="img/02.jpg" class="img-fluid" alt="Responsive image">
+<img  src="background.jpg" class="img-fluid" alt="Responsive image">
 <div class="container">
 	<div class="row">
 		<div class="col-8 mt-4 mb-4 text-center">
