@@ -9,7 +9,7 @@
 	integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
+<body background="background.png">
 <!-- Menu -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 		<a class="navbar-brand" href="index.html"><img height="60px" src="logo.png" alt=""></a>
