@@ -61,10 +61,7 @@
 	<div class="row">
 		<div class="col-8 mt-4 mb-4 text-center">
 			<p>
-				En la siguiente pagina se desarrollan los conceptos relacionados a la materia 
-				diseño de sitios web, la cual tiene como objetivo conocer las estructuras esenciales 
-				para la construcción de un sitio web con las herramientas necesarias para construir 
-				un sitio con una estructura y visualización adecuada. 
+				Esta pagina esta desarrollada para comprender todos los temas relacionados en cuenta a la creacion de sitios web a traves de los lenguajes CSS3 y 				  HTML, de igual manera que la materia como tal, su objetivo principal es apropiar al estudiante de los temas principales que componen el curso y 				  brindar las herramientas necesarias para crear sitios de contenido no solo visualmente agradable. 
 			</p>
 
 			<h2 class="mb-4">Objetivos</h2>
