@@ -106,15 +106,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-4 mt-4">
-			<a class="twitter-timeline" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> 
-			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		</div>
 	</div>
-
-
 </div>
-
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
 crossorigin="anonymous"></script>
