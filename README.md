@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
     	<title>Inicio</title>
-	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body background="background.png">
